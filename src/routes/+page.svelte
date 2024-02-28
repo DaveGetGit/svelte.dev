@@ -1,4 +1,5 @@
 <script>
+  import TextAreaInput from "./../components/Bindings/TextAreaInput.svelte";
   import ReactiveDeclarations from "../components/Reactivity/ReactiveDeclarations.svelte";
   import ReactiveAssignment from "../components/Reactivity/Reactive_Assignment.svelte";
   import ReactiveStatments from "../components/Reactivity/Reactive_Statments.svelte";
@@ -17,6 +18,14 @@
   import ComponentEvents from "../components/Events/Component-Events.svelte";
   import EventForwarding from "../components/Events/Event-Forwarding.svelte";
   import DomEventForwarding from "../components/Events/DOM-Event-Forwarding.svelte";
+  import TextInputs from "../components/Bindings/TextInputs.svelte";
+  import NumericInputs from "../components/Bindings/NumericInputs.svelte";
+  import CheckboxInputs from "../components/Bindings/CheckboxInputs.svelte";
+  import GroupInputs from "../components/Bindings/GroupInputs.svelte";
+  import FileInputs from "../components/Bindings/FileInputs.svelte";
+  import SelectBindings from "../components/Bindings/SelectBindings.svelte";
+  import SelectMultiple from "../components/Bindings/SelectMultiple.svelte";
+  import EachBlockBindings from "../components/Bindings/EachBlockBindings.svelte";
 </script>
 
 <h1>Welcome to SvelteKit</h1>
@@ -89,4 +98,33 @@
 
   <p><strong>DOM Event Forwarding</strong></p>
   <DomEventForwarding />
+</div>
+
+<div>
+  <p><strong>Text Inputs</strong></p>
+  <TextInputs />
+
+  <p><strong>Numeric Inputs</strong></p>
+  <NumericInputs />
+
+  <p><strong>CheckBox</strong></p>
+  <CheckboxInputs />
+
+  <p><strong>Group Inputs</strong></p>
+  <GroupInputs />
+
+  <p><strong>TextArea Inputs</strong></p>
+  <TextAreaInput />
+
+  <p><strong>File Inputs</strong></p>
+  <FileInputs />
+
+  <p><strong>Select Bindings</strong></p>
+  <SelectBindings />
+
+  <p><strong>Select Multiple</strong></p>
+  <SelectMultiple />
+
+  <p><strong>Each Block Bindings</strong></p>
+  <EachBlockBindings />
 </div>
