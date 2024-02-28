@@ -11,6 +11,12 @@
   import EachBlock from "../components/Logic/Each-Block.svelte";
   import KeyedEachBlock from "../components/Logic/Keyed-Each-Block.svelte";
   import AwaitBlocks from "../components/Logic/Await-Blocks.svelte";
+  import DomEvents from "../components/Events/DOM-Events.svelte";
+  import InlineHandlers from "../components/Events/Inline-Handlers.svelte";
+  import EventModifiers from "../components/Events/Event-Modifiers.svelte";
+  import ComponentEvents from "../components/Events/Component-Events.svelte";
+  import EventForwarding from "../components/Events/Event-Forwarding.svelte";
+  import DomEventForwarding from "../components/Events/DOM-Event-Forwarding.svelte";
 </script>
 
 <h1>Welcome to SvelteKit</h1>
@@ -63,4 +69,24 @@
 
   <p><strong>Await Block</strong></p>
   <AwaitBlocks />
+</div>
+
+<div>
+  <p><strong>DOM Events</strong></p>
+  <DomEvents />
+
+  <p><strong>Inline Handlers</strong></p>
+  <InlineHandlers />
+
+  <p><strong>Event Modofiers</strong></p>
+  <EventModifiers />
+
+  <p><strong>Component Events</strong></p>
+  <ComponentEvents />
+
+  <p><strong>Event Forwarding</strong></p>
+  <EventForwarding />
+
+  <p><strong>DOM Event Forwarding</strong></p>
+  <DomEventForwarding />
 </div>
