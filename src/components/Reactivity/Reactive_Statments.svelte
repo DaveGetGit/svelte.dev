@@ -1,4 +1,7 @@
 <script>
+  import ReactiveAssignment from "./Reactive_Assignment.svelte";
+  import Nested from "../../components/Nested.svelte";
+
     let count = 0 ;
 
     $: if(count >=10){
@@ -15,3 +18,4 @@
     Clicked {count} 
     {count === 1 ? 'time' : 'times'}
 </button>
+
