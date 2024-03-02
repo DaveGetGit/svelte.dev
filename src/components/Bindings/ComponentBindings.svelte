@@ -3,8 +3,9 @@
 
   let pin;
   $: view = pin ? pin.replace(/\d(?!$)/g, "•") : "enter your pin";
+
   function handleSubmit() {
-    alert(`submmited ${pin}`);
+    alert(`submitted ${pin}`);
   }
 </script>
 
