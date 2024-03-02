@@ -27,6 +27,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"marked": "^12.0.0"
+		"marked": "^12.0.0",
+		"svelte-keyboard": "^0.5.5"
 	}
 }

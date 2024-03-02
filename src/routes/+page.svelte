@@ -26,6 +26,10 @@
   import SelectBindings from "../components/Bindings/SelectBindings.svelte";
   import SelectMultiple from "../components/Bindings/SelectMultiple.svelte";
   import EachBlockBindings from "../components/Bindings/EachBlockBindings.svelte";
+  import MediaElements from "../components/Bindings/MediaElements.svelte";
+  import Dimensions from "../components/Bindings/Dimensions.svelte";
+  import BindThisCanvas from "../components/Bindings/Bind_this_canvas.svelte";
+  import ComponentBindings from "../components/Bindings/ComponentBindings.svelte";
 </script>
 
 <h1>Welcome to SvelteKit</h1>
@@ -127,4 +131,16 @@
 
   <p><strong>Each Block Bindings</strong></p>
   <EachBlockBindings />
+
+  <p><strong>Media Elements</strong></p>
+  <MediaElements />
+
+  <p><strong>Dimensions</strong></p>
+  <Dimensions />
+
+  <p><strong>Bind:this Canvas</strong></p>
+  <BindThisCanvas />
+
+  <p><strong>Component Bindings</strong></p>
+  <ComponentBindings />
 </div>
